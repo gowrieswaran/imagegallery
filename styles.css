@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Great Vibes;
+    text-align: center;
+    color: green;
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.flex_container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.img_box{
+    list-style: none;
+}
+.img_details{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border: 5px solid grey;
+}
+.img_details:hover{
+    opacity: 0.6;
+}
