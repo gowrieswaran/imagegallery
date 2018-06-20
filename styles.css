@@ -1,11 +1,16 @@
-body{
+body, p, h1{
     margin: 0;
     padding: 0;
 }
 h1{
-    font-family: Great Vibes;
-    text-align: center;
+   font-family: Great Vibes;
     color: green;
+    font-size: 20px;
+}
+.name{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
 }
 .container{
     max-width: 100%;
@@ -27,4 +32,26 @@ h1{
 }
 .img_details:hover{
     opacity: 0.6;
+}
+
+@media screen and (max-width: 1020px) {
+    .container{
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    .flex_container{
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    header{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .title{
+        text-align: center;
+        margin: 0 auto;
+    }
 }
